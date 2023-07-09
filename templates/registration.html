@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>Registration</title>
+    <link rel="stylesheet" href="../static/css/reg_style.css">
+</head>
+<body>
+    <div id="os_container">
+        <div id="name_page">
+            <div id="registration_text">
+                <img id="reg_img" src="../static/img/reg.png" alt="reg_img">
+                <p>REGISTRATION</p>
+            </div>
+            <div id="authorization_link">
+                <a href="/authorization" id="link_login">LOGIN</a>
+            </div>
+        </div>
+        <div id="os-midle_block">
+            <div id="reg_form_block">
+                <div id="profile_img_block">
+                    <img id="profile_img" src="../static/img/profile.png" alt="profiel img">
+                </div>
+                <!------------------------------------------------------------------------------>
+                <form action="" id="reg_form">
+                    <!-- INPUTS: |login| |password| |rpassword - (repeat password)| -->
+                    <input type="text" placeholder="name" id="login">
+                    <input type="password" placeholder="password" id="password">
+                    <input type="password" placeholder="repeat password" id="rpassword">
+                    <button type="button" id="reg">REGISTRATION</button>
+                </form>
+                <!------------------------------------------------------------------------------>
+                <!-- ERROR -->
+                <div id="error_block">
+                    <div id="error"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../static/js/registration.js" type="module"></script>
+</body>
+</html>

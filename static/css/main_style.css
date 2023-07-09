@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    margin: 0;
+}
+  
+a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+#main_block {
+    height: 100vh;
+    width: 100vw; 
+    overflow: auto; 
+    display: flex;
+    flex-direction: column;
+}
+  
+  /* UP_BLOCK */
+  
+#up_block {
+    background: #333;
+    height: 60px;
+    display: flex;
+}
+  
+  /* Exit button */
+  
+#exit {
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+#exit_butt {
+    background-color: rgb(87, 87, 87);
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 16px;
+}
+  
+#exit_butt:hover {
+    background-color: rgb(151, 151, 151);
+    color: #222;
+}
+  
+  /* Profile */
+/* ---------------------------------------- */
+#profile {
+    width: 370px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+    /* USER */
+#user_func{
+    margin-right: 23px;
+}
+#link_reg:hover, #link_login:hover{
+    color: aqua;
+}
+/* ---------------------------------------- */
+  /* Create button */
+  
+#create_articles {
+    margin-left: 503px;
+    width: 217px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+  
+#create_butt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(87, 87, 87);
+    border-radius: 15px;
+    width: 140px;
+    height: 35px;
+}
+  
+#create_butt:hover {
+    background-color: rgb(151, 151, 151);
+    color: #222;
+}
+  
+  /* search */
+  
+#search {
+    width: 500px;
+    margin-left: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+#search_input {
+    width: 80%;
+    height: 40%;
+    border-radius: 20px;
+    background-color: #222;
+    color: #fff;
+}
+  
+  /* Middle block */
+  
+  #middle_block {
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+}
+#one{
+    width: 20%;
+    height: 100%;
+}
+#two{
+    width: 60%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#three{
+    width: 20%;
+    height: 100%;
+}
+#upp_block{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4%;
+    justify-content: space-between;
+}
+    /* TITLE */
+ #title {
+    margin-left: 23px;
+}
+#date_text{
+    color: rgb(93, 93, 93);
+    font-size: 15px;
+    font-style: italic;
+}
+#date_comm{
+    color: rgb(97, 97, 97);
+    font-size: 13px;
+    font-style: italic;
+}
+#articles{
+    width: 98%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.article{
+    margin-bottom: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#content{
+    width: 98%;
+    margin-left: 5px;
+}
+#author{
+    width: 98%;
+    height: 20%;
+    margin-left: 3px;
+    margin-top: 2px;
+}
+    /* Rating */
+.rating{
+    width: 97%;
+    margin-left: 5px;
+}
+.like-button{
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.like-button.liked {
+    color: rgb(255, 0, 64) !important;
+}
+  
+    /* Comments */
+.show-more{
+    border: none;
+    background: none;
+    color: rgb(174, 174, 174);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.comments{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.comment-input{
+    background-color: #333;
+    width: 300px;
+    height: 22px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.comment-submit{
+    background-color: #444;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 22px;
+    width: 60px;
+}
+#error_comment{
+    color: rgb(255, 0, 68);
+    margin-left: 10px;
+}
+.comment{
+    margin-left: 5px;
+}
