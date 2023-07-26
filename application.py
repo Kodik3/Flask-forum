@@ -8,7 +8,6 @@ from services.interface import *
 
 # App
 app: Flask = Flask(__name__, static_folder='static')
-app.secret_key = "12y3hgdmn16dhn1c721"
 
 # PAGES
 #---------------------------------------------------------
